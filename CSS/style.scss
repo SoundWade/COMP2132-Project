@@ -1,0 +1,92 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+
+* {
+    box-sizing: border-box;
+  } 
+
+
+body {
+    background-image: url(../IMG/casino.jpg);
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+}
+
+#dice-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.player-container {
+    text-align: center;
+  
+  img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+  }
+
+  .player{
+    color: #F5F5DC;
+    font-size: 25px;
+    font-family: cursive;
+    
+  }
+
+
+  
+
+#reset-button {
+    display: none; /* Hide the reset button initially */
+}
+
+
+    button {
+        width: 50%;
+        height: 50px; 
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: auto; 
+        margin-right: auto;
+        border: 1px solid #ccc; 
+        border-radius: 15px;
+        box-shadow: 10px 10px;
+    }
+
+
+    
+
+
+#score-container {
+    background-color: #fff; /* Set background color */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 20px;
+    box-shadow: 15px 15px;
+    padding: 20px; /* Add padding */
+    margin-top: 20px; /* Add margin for spacing */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    p {
+        margin: 5px 0;
+    }
+
+    span {
+        font-weight: bold;
+    }
+
+    #winner {
+        color: green;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+
+}
+
